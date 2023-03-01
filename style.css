@@ -1,0 +1,54 @@
+@font-face {
+    font-family: lemon-milk ;
+    src: url(fonts/LEMONMILK-Light.otf);
+}
+
+body{
+    font-family: lemon-milk;
+    background-color: black;
+}
+
+
+.clock-container{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(65, 65, 65);
+    margin: 0 auto;
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.clock-container select{
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+
+}
+.clock-img{
+    width: 150px;
+}
+
+.time-show{
+ color: #fff;
+ font-weight: bold;
+}
+.setAlarm-btn{
+   margin-top: 20px;
+   width: 250px;
+   height: 40px;
+   border-radius: 5px;
+   cursor: pointer;
+   border: none;
+   background-color: rgb(60, 157, 255);
+   color: #fff;
+   font-weight: bold;
+}
+
+.dsable{
+    opacity: .5;
+    pointer-events: none;
+}
