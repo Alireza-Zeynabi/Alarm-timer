@@ -5,17 +5,14 @@
 
 body{
     font-family: lemon-milk;
-    background-color: black;
+    background-color: #414141;
 }
 
 
 .clock-container{
     width: 600px;
     height: 500px;
-    background-color: rgb(65, 65, 65);
     margin: 0 auto;
-    /* text-align: center; */
-
     display: flex;
     justify-content: center;
     align-items: center;
